@@ -1,0 +1,145 @@
+.upload {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.uploadButton,
+.submitButton {
+	background: linear-gradient(295.67deg, #de0d6f 16.23%, #731054 83.77%);
+	border-radius: 8px !important;
+	width: 100%;
+	height: 40px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+}
+
+.buttonContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.submitButton {
+	width: 147px;
+}
+
+.modalHeader {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.modalHeader h3 {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: center;
+	color: #000000;
+}
+
+.modalHeader p {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #666666;
+}
+
+.modalHeader span {
+	font-family: "Segoe UI Symbol";
+	display: block;
+	text-align: end;
+	cursor: pointer;
+}
+
+.modalHeader span:hover {
+	color: #de0d6f;
+}
+
+form select,
+input[type="text"] {
+	width: 100%;
+	height: 40px;
+	padding: 8px 24px 8px 10px;
+	gap: 8px;
+	font-size: 14px;
+	background: #f2f2f2;
+	border: none;
+	border-radius: 8px;
+}
+
+form select {
+	appearance: none;
+}
+
+.selectOpen {
+	background-image: url("../../assets/arrow-down.png");
+	background-repeat: no-repeat;
+	background-position: right 20px center;
+}
+
+.selectClose {
+	background-image: url("../../assets/arrow-up.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-position: right 20px center;
+}
+
+form select:focus,
+input:focus {
+	outline: none;
+}
+
+select option {
+	font-family: "Montserrat";
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+	background-color: #fff;
+	border-color: none;
+}
+
+select option:hover {
+	background-color: white;
+	color: gray;
+}
+
+input[type="text"] {
+	width: 99%;
+	height: 40px;
+	padding: 5px 0px 5px 10px;
+}
+
+form > * {
+	margin-bottom: 50px;
+}
+
+.submitButton:disabled {
+	background: #b2b2b2;
+	color: #fff !important;
+}
+
+@media screen and (max-width: 920px) {
+	.modalBox {
+		width: 70% !important;
+	}
+}
+@media screen and (max-width: 480px) {
+	.upload {
+		margin-bottom: 12rem;
+	}
+
+	select option {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 20px;
+	}
+}

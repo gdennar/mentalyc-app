@@ -1,0 +1,47 @@
+header {
+	background-color: #ffffff !important;
+	border-bottom: 2px solid #731054;
+	box-shadow: none !important;
+}
+
+.text {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+main h3 {
+	font-family: "Poppins";
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	color: #000000;
+	margin-top: 0;
+}
+
+main .entry {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+	.logo {
+		margin: 0 auto;
+	}
+
+	main h3 {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.entry svg {
+		display: none;
+	}
+
+	main {
+		margin-bottom: 70px;
+	}
+}

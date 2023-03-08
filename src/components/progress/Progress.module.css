@@ -1,0 +1,114 @@
+.progress {
+	margin-top: 100px;
+	width: 100%;
+}
+
+.progressList {
+	border: 1px solid #e5e5e5;
+	border-radius: 16px;
+	padding: 15px 15px 15px 25px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+}
+
+.listNumber {
+	background: #de0d6f;
+	border-radius: 250px;
+	padding: 4px 11px;
+	width: 32px;
+	height: 32px;
+	color: #fff;
+}
+
+.listText {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	order: 1;
+	color: #000000;
+}
+
+table {
+	width: 100%;
+}
+
+th,
+td {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+td {
+	font-weight: 400;
+}
+
+th,
+td {
+	vertical-align: top;
+	text-align: left;
+	padding: 8px;
+}
+
+tbody tr {
+	background: #ffffff;
+	box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.iconCell {
+	text-align: center;
+	cursor: pointer;
+}
+
+.progressBar {
+	background-color: #b2b2b2;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	height: 24px;
+}
+
+.progressFill {
+	background-color: #3bc171;
+	border-radius: 8px;
+	height: 24px;
+	width: 50px;
+}
+
+@media screen and (max-width: 480px) {
+	.progressBar {
+		height: 16px;
+	}
+
+	.progressFill {
+		height: 16px;
+		width: 60px;
+	}
+
+	.dataType,
+	.iconCell,
+	thead tr th:nth-child(2),
+	thead tr th:nth-child(3),
+	thead tr th:nth-child(4) {
+		display: none;
+	}
+
+	.dataCLient {
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	tbody tr {
+		background: transparent;
+		box-sizing: border-box;
+		border: 1px solid #e5e5e5 !important;
+		border-radius: 8px;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.053);
+	}
+}
