@@ -1,8 +1,8 @@
 import React, { createContext, useState } from "react";
 
 const AppContext = createContext({
-	uploadProgress: 0,
 	uploadHandler: () => {},
+	deleteInputHandler: () => {},
 });
 
 export const AppContextProvider = (props) => {
